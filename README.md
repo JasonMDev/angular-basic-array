@@ -38,24 +38,27 @@ If there is an error due a module not been found, it should show what dependency
 ## C. Check development on local
 
 ```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
+$ cd angular-basic-array
 $ npm install
-$ npm start
+$ heroku local web
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## Deploying to Heroku
+You can also try out the npm server
+```sh
+$ cd angular-basic-array
+$ npm start
+```
+Your app should now be running on [localhost:5000](http://localhost:5000/).
+
+## D. Deploying to Heroku
 
 ```
 $ heroku create
 $ git push heroku master
 $ heroku open
 ```
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Documentation
 
