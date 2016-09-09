@@ -2,7 +2,7 @@
 
 A basic AngularJS app using [Express 4](http://expressjs.com/).
 It demonstrates the basic of looping through an array of data using 'ng-repeat'.
-It also has like and dislike buttons using 'ng-click'.
+It also has like and dislike buttons using 'ng-click'. It is based upon the AngularJS lesson found at [codecademy](http://www.codecademy.com/).
 
 The app is ready to deploy to [Heroku](http://www.heroku.com/). The Procfile, .env and server.js files have already been created, therefore only the following is required to get it deployed to [Heroku](http://www.heroku.com/):
 
